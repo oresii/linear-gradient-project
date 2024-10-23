@@ -1,0 +1,57 @@
+/* .box1{
+width: 500px;
+height: 500px;
+
+background: linear-gradient(
+    90deg,
+rgba(2, 3 , 61,0.8) 0%,
+rgba(20,16,255,0.8%)100%
+),
+url( 
+'https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg'
+)
+  
+
+} */
+img{
+    width: 1550px;
+    height: 700px;
+    opacity: 0.33;
+}
+
+
+
+.hero {
+    width: 800px;
+    height: 800px;
+    background: 
+        linear-gradient(
+            90deg,
+            rgba(2, 3, 61, 0.8) 0%,
+            rgba(0, 168, 255, 0.8) 100%
+        ),
+        url("https://www.img2go.com/assets/dist/sample-files/img/convert_to_jpg.png");
+    background-size: cover, cover;  
+    background-position: center;  
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1{
+text-align: center;
+color: white;
+padding: 300px;
+letter-spacing: 5px;
+
+}
+button{
+    border: 30px;
+    background-color:rgba(0, 168, 255, 0.8)  ;
+margin: -5rem;
+}
+button :hover{
+    color: white;
+    background: rgba(0, 168, 255, 0.8);
+    transition: 0.5s;
+    
+}
